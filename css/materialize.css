@@ -4821,7 +4821,68 @@ span.badge {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0 0.75rem; }
-    .row .col.s1 {
+    .row .col.xs1 {
+      width: 8.33333%;
+      margin-left: 0; }
+    .row .col.xs2 {
+      width: 16.66667%;
+      margin-left: 0; }
+    .row .col.xs3 {
+      width: 25%;
+      margin-left: 0; }
+    .row .col.xs4 {
+      width: 33.33333%;
+      margin-left: 0; }
+    .row .col.xs5 {
+      width: 41.66667%;
+      margin-left: 0; }
+    .row .col.xs6 {
+      width: 50%;
+      margin-left: 0; }
+    .row .col.xs7 {
+      width: 58.33333%;
+      margin-left: 0; }
+    .row .col.xs8 {
+      width: 66.66667%;
+      margin-left: 0; }
+    .row .col.xs9 {
+      width: 75%;
+      margin-left: 0; }
+    .row .col.xs10 {
+      width: 83.33333%;
+      margin-left: 0; }
+    .row .col.xs11 {
+      width: 91.66667%;
+      margin-left: 0; }
+    .row .col.xs12 {
+      width: 100%;
+      margin-left: 0; }
+    .row .col.offset-xs1 {
+      margin-left: 8.33333%; }
+    .row .col.offset-xs2 {
+      margin-left: 16.66667%; }
+    .row .col.offset-xs3 {
+      margin-left: 25%; }
+    .row .col.offset-xs4 {
+      margin-left: 33.33333%; }
+    .row .col.offset-xs5 {
+      margin-left: 41.66667%; }
+    .row .col.offset-xs6 {
+      margin-left: 50%; }
+    .row .col.offset-xs7 {
+      margin-left: 58.33333%; }
+    .row .col.offset-xs8 {
+      margin-left: 66.66667%; }
+    .row .col.offset-xs9 {
+      margin-left: 75%; }
+    .row .col.offset-xs10 {
+      margin-left: 83.33333%; }
+    .row .col.offset-xs11 {
+      margin-left: 91.66667%; }
+    .row .col.offset-xs12 {
+      margin-left: 100%; }
+    @media only screen and (min-width : 600px) {
+      .row .col.s1 {
       width: 8.33333%;
       margin-left: 0; }
     .row .col.s2 {
@@ -4881,7 +4942,7 @@ span.badge {
       margin-left: 91.66667%; }
     .row .col.offset-s12 {
       margin-left: 100%; }
-    @media only screen and (min-width : 601px) {
+    @media only screen and (min-width : 850px) {
       .row .col.m1 {
         width: 8.33333%;
         margin-left: 0; }
@@ -4942,7 +5003,7 @@ span.badge {
         margin-left: 91.66667%; }
       .row .col.offset-m12 {
         margin-left: 100%; } }
-    @media only screen and (min-width : 993px) {
+    @media only screen and (min-width : 1050px) {
       .row .col.l1 {
         width: 8.33333%;
         margin-left: 0; }
@@ -5018,7 +5079,7 @@ nav {
     nav .nav-wrapper i {
       display: block;
       font-size: 2rem; }
-  @media only screen and (min-width : 993px) {
+  @media only screen and (min-width : 1050px) {
     nav a.button-collapse {
       display: none; } }
   nav .button-collapse {
@@ -5043,7 +5104,7 @@ nav {
       -ms-transform: translateX(-50%);
       -o-transform: translateX(-50%);
       transform: translateX(-50%); }
-    @media only screen and (max-width : 992px) {
+    @media only screen and (max-width : 1050px) {
       nav .brand-logo {
         left: 50%;
         -webkit-transform: translateX(-50%);
@@ -5109,7 +5170,7 @@ nav {
   .navbar-fixed nav {
     position: fixed; }
 
-@media only screen and (min-width : 601px) {
+@media only screen and (min-width : 600px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
     line-height: 64px; }
@@ -5152,7 +5213,10 @@ html {
   @media only screen and (min-width: 0) {
     html {
       font-size: 14px; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 600) {
+    html {
+      font-size: 14px; } }
+  @media only screen and (min-width: 850px) {
     html {
       font-size: 14.5px; } }
   @media only screen and (min-width: 1200px) {
@@ -5445,15 +5509,15 @@ small {
     #toast-container {
       min-width: 100%;
       bottom: 0%; } }
-  @media only screen and (min-width : 601px) and (max-width : 992px) {
+  @media only screen and (min-width : 601px) and (max-width : 1050px) {
     #toast-container {
       min-width: 30%;
       left: 5%;
       bottom: 7%; } }
-  @media only screen and (min-width : 993px) {
+  @media only screen and (min-width : 1050px) {
     #toast-container {
       min-width: 8%;
-      top: 10%;
+      bottom: 10%;
       right: 7%; } }
 
 .toast {
@@ -5491,10 +5555,10 @@ small {
     .toast {
       width: 100%;
       border-radius: 0; } }
-  @media only screen and (min-width : 601px) and (max-width : 992px) {
+  @media only screen and (min-width : 601px) and (max-width : 1050px) {
     .toast {
       float: left; } }
-  @media only screen and (min-width : 993px) {
+  @media only screen and (min-width : 1050px) {
     .toast {
       float: right; } }
 
@@ -5831,7 +5895,7 @@ a.waves-effect .waves-ripple {
   -o-transform: translate(0);
   transform: translate(0);
   will-change: top, opacity; }
-  @media only screen and (max-width : 992px) {
+  @media only screen and (max-width : 1050px) {
     .modal {
       width: 80%; } }
   .modal h1, .modal h2, .modal h3, .modal h4 {
@@ -6093,11 +6157,11 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
     padding-top: .8rem; }
   .input-field .prefix ~ label {
     margin-left: 3rem; }
-  @media only screen and (max-width : 992px) {
+  @media only screen and (max-width : 1050px) {
     .input-field .prefix ~ input {
       width: 86%;
       width: calc(100% - 3rem); } }
-  @media only screen and (max-width : 600px) {
+  @media only screen and (max-width : 850px) {
     .input-field .prefix ~ input {
       width: 80%;
       width: calc(100% - 3rem); } }
@@ -6795,7 +6859,7 @@ select {
     right: 0;
     left: auto; }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1050px) {
   .side-nav.fixed {
     left: -105%; }
     .side-nav.fixed.right-aligned {

@@ -1,3 +1,8 @@
+  @font-face{
+	  font-family: "thirsty";
+	  src: url("../font/custom/thirstyscript.otf") format("opentype");
+  }
+
   body {
     display: flex;
     min-height: 100vh;
@@ -6,4 +11,18 @@
 
   main {
     flex: 1 0 auto;
+  }
+
+  .full-row{
+  	margin: 0px !important;
+  	padding: 25px 15px;
+  }
+
+  .heading-line{
+  	border-width: 3px 0px 0px 0px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+  	font-family: thirsty;
+  	color: #00b0ff;
   }
