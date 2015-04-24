@@ -1,12 +1,34 @@
   @font-face{
-	  font-family: "thirsty";
-	  src: url("../font/custom/thirstyscript.otf") format("opentype");
-  }
+    font-family: "thirsty";
+    src: url("../font/custom/thirstyscript.otf") format("opentype");
+  }  
+  @font-face{
+    font-family: "roboto-bold";
+    src: url("../font/roboto/Roboto-Bold.woff") format("woff");
+  } 
+  @font-face{
+    font-family: "roboto-light";
+    src: url("../font/roboto/Roboto-Light.woff") format("woff");
+  } 
+  @font-face{
+    font-family: "roboto-med";
+    src: url("../font/roboto/Roboto-Medium.woff") format("woff");
+  } 
+  @font-face{
+    font-family: "roboto-reg";
+    src: url("../font/roboto/Roboto-Regular.woff") format("woff");
+  } 
+  @font-face{
+    font-family: "roboto-thin";
+    src: url("../font/roboto/Roboto-Thin.woff") format("woff");
+  } 
 
   body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: "roboto-light";
+    color: #272727;
   }
 
   main {
@@ -22,7 +44,20 @@
   	border-width: 3px 0px 0px 0px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4{
   	font-family: thirsty;
   	color: #00b0ff;
   }
+
+  h5{
+    font-family: "roboto-bold";
+    color: #00b0ff;
+  } 
+  h6{
+    font-family: "roboto-med";
+  } 
+
+  .icon-col{
+    margin: 20px 0px;
+  }
+  .svg .path {fill: #878787 !important;}
